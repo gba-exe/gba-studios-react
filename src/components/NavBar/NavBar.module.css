@@ -1,0 +1,67 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  position: sticky;
+  top: 0px;
+  z-index: 0;
+
+  height: 8vh;
+
+  padding: 0px 4rem;
+
+  background-color: black;
+
+  border-bottom: #ffffff solid 2px;
+
+  box-shadow: 0px 1px 40px #000;
+  box-sizing: content-box;
+}
+
+.logo {
+  color: white;
+  cursor: pointer;
+}
+
+.botoes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+
+  width: auto;
+}
+
+button {
+  width: 8vw;
+
+  padding: 0.5rem 0.75rem;
+
+  font-size: 16px;
+}
+.botao-login {
+  color: black;
+
+  background-color: white;
+
+  border: 2px solid transparent;
+}
+
+.botao-login:hover {
+  background-color: #b8b8b8;
+  transition-duration: 200ms;
+}
+
+.botao-signup {
+  color: white;
+
+  background-color: black;
+
+  border: 2px solid white;
+}
+
+.botao-signup:hover {
+  background-color: #ffffff40;
+  transition-duration: 200ms;
+}
