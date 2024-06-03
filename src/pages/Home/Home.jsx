@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "../../components/NavBar/NavBar";
 import styles from "./Home.module.css";
-import imgHeader from "../../images/header.jpg";
+import imgHeader from "../../images/banner.jpg";
 
 const Home = () => {
   return (
